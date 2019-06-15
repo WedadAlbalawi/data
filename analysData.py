@@ -25,7 +25,7 @@ import xlrd
 import pandas as pd
 
 
-FileName ="/Users/wedadalbalawi/Desktop/Coding_Visualization_Exercise/data/DataSetMeadinaDeathExcel.xlsx"
+FileName ="DataSetMeadinaDeathExcel.xlsx"
 
 workbook = xlrd.open_workbook(FileName)
 worksheet = workbook.sheet_by_name("DataSet") # We need to read the data
